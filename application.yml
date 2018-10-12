@@ -25,7 +25,7 @@ spring:
 
   cloud:
     config:
-      uri: https://localhost:8888
+      uri: https://localhost:8889
 
 eureka:
   client:
