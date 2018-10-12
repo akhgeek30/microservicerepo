@@ -25,16 +25,16 @@ spring:
 
   cloud:
     config:
-      uri: https://localhost:8889
+      uri: https://localhost:8887
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:9091/eureka
+      defaultZone: http://localhost:9092/eureka
   register-with-eureka: true
   fetchRegistry: true
 
 server:
-  port: 9091
+  port: 9092
 
 
