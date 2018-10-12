@@ -30,11 +30,11 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:9090/eureka
+      defaultZone: http://localhost:9091/eureka
   register-with-eureka: true
   fetchRegistry: true
 
 server:
-  port: 9090
+  port: 9091
 
 
